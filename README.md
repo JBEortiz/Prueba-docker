@@ -17,9 +17,8 @@
     * docker build -t prueba-docker:v1 .
     * docker run -p 8888:8888 --name prueba-docker --network prueba prueba-docker:v1
     
-  ## Docker-compose:  
   
-  
+# YAML
 version: "3.8"
 services:
   mysql: 
